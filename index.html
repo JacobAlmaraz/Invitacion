@@ -12,7 +12,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
-
+    @import url('https://fonts.googleapis.com/css2?family=Ballet&display=swap');
 
 
 
@@ -27,16 +27,17 @@
       align-items: center;
       min-height: 100vh;
     }
-
+    .stford-gray {
+      color: #46464C; /* Gris Stford */
+    }
     .outer-container {
       position: relative;
-      padding: 20px;
+      padding: 0.5px;
       background-color: #fff;
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-      border-radius: 20px;
-      max-width: 800px;
+      box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
+      max-width: 900px;
       width: 100%;
-      margin: 20px;
+      margin: 0.5px;
       overflow: hidden;
     }
 
@@ -54,25 +55,13 @@
     .container-custom {
       position: relative;
       z-index: 1;
-      padding: 20px;
+      padding: 5px;
       border: 10px solid transparent;
       border-image: url('https://www.publicdomainpictures.net/pictures/30000/velka/plain-decorative-border-1367411830c4n.jpg') 30 stretch;
       background-color: #ffffff;
     }
 
-    .myGold {
-      font-family: 'Pacifico', cursive;
-      text-align: center;
-      font-size: 3em;
-      background: linear-gradient(45deg, #FFD700, #FFC700, #FFA500);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
-      0 2px 2px rgba(255, 215, 0, 0.6),
-      0 3px 3px rgba(255, 165, 0, 0.4),
-      0 4px 4px rgba(255, 140, 0, 0.3);
-      margin: 0 0 20px;
-    }
+
 
     .extable, .intable {
       width: 100%;
@@ -84,11 +73,11 @@
     }
 
     .extable {
-      border: 3px solid gold;
+      border: 3px solid black;
     }
 
     .intable {
-      border: 1px solid gold;
+      border: 1px solid black;
     }
 
     td {
@@ -101,52 +90,9 @@
       line-height: 1.6;
       font-size: 1.1em;
       margin: 10px 0;
+
     }
 
-    ul {
-      list-style: none;
-      padding: 0;
-      margin: 20px 0;
-    }
-
-    li {
-      font-size: 1.1em;
-      margin: 5px 0;
-    }
-
-    .btn-custom {
-      display: inline-block;
-      padding: 10px 20px;
-      background-color: #7986cb;
-      color: #ffffff;
-      text-decoration: none;
-      border-radius: 5px;
-      margin-top: 20px;
-      font-size: 1.1em;
-      text-align: center;
-      transition: background-color 0.3s ease;
-    }
-
-    .btn-custom:hover {
-      background-color: #5c6bc0;
-    }
-
-    .img-container {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-
-    .img-container img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 10px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      transition: transform 0.3s ease;
-    }
-
-    .img-container:hover img {
-      transform: scale(1.05);
-    }
 
     /* Media Query para móviles */
     @media (max-width: 768px) {
@@ -173,13 +119,7 @@
       }
     }
 
-    .gold-text {
-      font-size: 3em;
-      background: linear-gradient(45deg, #ffd700, #ffa500, #ffd700);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      text-shadow: 0 0 10px rgba(0,0,0,0.5);
-    }
+
 
     .line-container {
       display: flex;
@@ -222,7 +162,8 @@
       font-family: 'Dancing Script', cursive;
     }
     .elegant-cursive {
-      font-family: 'Great Vibes', cursive;
+      font-family: 'Ballet', cursive;
+
     }
     .allura-text {
       font-family: 'Allura', cursive;
@@ -273,24 +214,24 @@
         <td>
           <table class="intable">
             <tr>
-              <td>
-                <p class="elegant-cursive" style="text-align: center; font-size: 25px">Los mejores momentos en la vida merecen ser compartidos</p>
+              <td  class="stford-gray">
+                <p class="elegant-cursive" style="text-align: center; font-size: 19px;">Los mejores momentos en la vida merecen ser compartidos</p>
                 <br/>
                 <br/>
-                <p class="abhaya-text"  style="text-align: center; font-size: 35px;">MARIA</p>
-                <p class="elegant-cursive" style="text-align: center;">Castro Arana</p>
+                <p class="abhaya-text stford-gray"  style="text-align: center; font-size: 35px;">MARIA</p>
+                <p class="elegant-cursive" style="text-align: center;font-size: 19px;">Castro Arana</p>
                 <div class="line-container">
                   <hr class="line left">
                   <div class="elegant-cursive" style="font-size: 30px" class="symbol">&</div>
                   <hr class="line right">
                 </div>
                 <p  class="abhaya-text"  style="text-align: center; font-size: 35px">JACOB</p>
-                <p  class="elegant-cursive" style="text-align: center;">Almaraz Arana</p>
+                <p  class="elegant-cursive" style="text-align: center;font-size: 19px;">Almaraz Arana</p>
                 <br/>
                 <p class="abhaya-text" style="text-align: center;font-size: 18.22px">Los invitamos a nuestra boda que hemos preparado
                   con mucha ilusión en un rincón de nuestro querido Matatlán, Jalisco</p>
                 <br/>
-                <p class="elegant-cursive" style="text-align: center;">30 Noviembre 2024</p>
+                <p class="elegant-cursive" style="text-align: center; font-size: 35px">30 Noviembre 2024</p>
                 <br/>
                 <p class="abhaya-text" style="text-align: center;">Ceremonia católica 12:00 pm</p>
                 <p class="abhaya-text" style="text-align: center;">Calle Niños Héroes 1, 45435 Matatlán, Jalisco</p>
@@ -298,7 +239,7 @@
                 <p class="abhaya-text" class="abhaya-text" style="text-align: center;">Boda civil y recepción 2:00 pm</p>
                 <p class="abhaya-text" style="text-align: center;">Cañada de las Flores</p>
                 <p></p>
-                <p class="elegant-cursive" style="text-align: center;">Nuestro destino estaba escrito</p>
+                <p class="elegant-cursive" style="text-align: center;font-size: 19px;">Nuestro destino estaba escrito</p>
                 <p></p>
 
                 <P></P>
