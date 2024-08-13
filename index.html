@@ -231,6 +231,23 @@
     .satisfy-text {
       font-family: 'Satisfy', cursive;
     }
+    .map-container {
+      position: relative;
+      width: 100%;
+      padding-top: 56.25%; /* Aspect ratio 16:9 */
+      height: 0;
+      overflow: hidden;
+      border: 1px solid #ddd; /* Opcional: Agrega un borde alrededor del mapa */
+    }
+
+    .map-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
 
   </style>
 </head>
@@ -277,8 +294,10 @@
                 <br/>
                 <br/>
                 <div class="map-container">
-                  <!-- Inserta el iframe del mapa aquí -->
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1109.5368880001577!2d-103.14997215056849!3d20.709316327574843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428c9f0255552b5%3A0x77a562414ce15d8d!2sTemplo%20de%20San%20Jose%20Isabel%20Flores!5e0!3m2!1ses-419!2smx!4v1723573589862!5m2!1ses-419!2smx" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1109.5368880001577!2d-103.14997215056849!3d20.709316327574843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428c9f0255552b5%3A0x77a562414ce15d8d!2sTemplo%20de%20San%20Jose%20Isabel%20Flores!5e0!3m2!1ses-419!2smx!4v1723573589862!5m2!1ses-419!2smx"
+                          allowfullscreen=""
+                          loading="lazy"
+                          referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
               </td>
             </tr>
